@@ -1,6 +1,6 @@
 FROM node:15.8.0
 ENV NODE_ENV=production
-ENV APP_HOME /app 
+ENV APP_HOME /demo_random_image 
 WORKDIR $APP_HOME
 COPY ["./package.json", "./package-lock.json*", "./"]
 RUN npm install --production
